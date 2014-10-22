@@ -1,5 +1,6 @@
+########
 celeryjs
-========
+########
 
 JavaScript module
 for asynchronously handling
