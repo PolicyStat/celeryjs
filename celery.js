@@ -10,7 +10,7 @@
     }
 }(this, function() {
     var Celery = function(options) {
-        options = $.extend({}, options, this.defaultOptions);
+        options = $.extend({}, options, Celery.defaultOptions);
 
         var deferred = $.Deferred();
         var intervalId = null;
@@ -60,4 +60,5 @@
             dataType: 'json'
         }
     };
+    return Celery;
 }));
